@@ -1,0 +1,66 @@
+@media only screen and (max-width: 991px) {
+    .banner-area.banner-area-two .banner-content {
+        margin: 0px;
+        text-align: left;
+        z-index: 1;
+        position: relative;
+        max-width: 710px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 35px;
+        padding: 0px;
+    }
+
+    .navbar-area {
+        background: #09293C;
+    }
+
+
+    .navbar-area.is-sticky {
+        background-color: #09293C;
+    }
+
+    .col-md-8.banner-col-left {
+        margin-top: -90px;
+    }
+
+    .mean-container .mean-nav ul li a {
+        color: #09293C !important;
+    }
+
+
+    .mobile-nav .mobile-menu.mean-container .navbar-nav {
+        height: 260px;
+    }
+
+    .mobile-nav .mobile-menu.mean-container a.meanmenu-reveal span {
+        background: white;
+    }
+
+    a.meanmenu-reveal.meanclose {
+        color: white !important;
+    }
+
+    .mobile-nav .mobile-menu.mean-container .mean-nav {
+        margin-top: 95px;
+    }
+
+
+    .others-option-for-responsive .dot-menu:hover .inner .circle {
+        background-color: white;
+    }
+
+    .others-option-for-responsive .dot-menu .inner .circle {
+        background-color: white;
+    }
+
+    .others-option-for-responsive .dot-menu .inner {
+        height: 5px;
+    }
+
+    .mobile-nav .mobile-menu.mean-container a.meanmenu-reveal {
+        color: #09293c;
+        padding-top: 25px;
+    }
+
+}

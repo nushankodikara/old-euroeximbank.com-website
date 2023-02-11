@@ -1,0 +1,1674 @@
+<!-- Preloader -->
+<div class="preloader d-flex align-items-center justify-content-center">
+    <div class="lds-ellipsis">
+        <img class="animate pulse infinity" src="img/loader/loader.PNG">
+    </div>
+</div>
+<style>
+   #myModal .close {
+    /* background-color: white !important; */
+    font-size: 30px !important;
+    /* border-radius: 100%; */
+    width: 50px;
+    text-align: center;
+    height: 50px;
+    font-weight: 700;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 14px;
+    float: right;
+    line-height: 1;
+    color: white;
+    text-shadow: 0 1px 0 #fff;
+    opacity:  1;
+}
+
+#myModal .close span{
+    display: flex;
+    margin: auto auto;
+}
+    .breakpoint-off .classynav ul li .dropdown .submenu {
+        width: 315px;
+    }
+
+    label.error {
+        color: red;
+        font-weight: 900;
+    }
+
+    .modal-scroll {
+        max-height: 300px;
+        overflow: auto;
+    }
+
+
+    .popup-btn a {
+        top: 55%;
+        position: fixed;
+        right: -60px;
+        z-index: 1000;
+        transform: rotate(-90deg);
+        background-color: red;
+        padding: 10px 20px 35px;
+        height: 0px;
+        background-color: #003679;
+        color: #fff;
+    }
+
+    .popup-btn a:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .form-part {
+        padding: 20px 0px;
+    }
+
+
+    .modal-pop {
+        background-color: #000000cf;
+    }
+
+    .modal-pop-content {
+        margin-top: 200px;
+        background-color: #fefefe;
+        width: 100%;
+        padding: 20px;
+        border: 3px solid #000 !important;
+    }
+
+    .close-pop {
+        position: absolute;
+        right: 10px;
+        top: 8px;
+        font-size: 35px;
+        font-weight: bold;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        text-align: center;
+    }
+
+    .close-pop:hover,
+    .close-pop:focus {
+        cursor: pointer;
+    }
+
+    .animate {
+        -webkit-animation: animatezoom 0.6s;
+        animation: animatezoom 0.6s
+    }
+
+    @-webkit-keyframes animatezoom {
+        from {
+            -webkit-transform: scale(0)
+        }
+
+        to {
+            -webkit-transform: scale(1)
+        }
+    }
+
+    @keyframes animatezoom {
+        from {
+            transform: scale(0)
+        }
+
+        to {
+            transform: scale(1)
+        }
+    }
+
+    /* @media (min-width: 576px) */
+#myModal .modal-dialog {
+    max-width: 75%;
+    margin: 1.75rem auto;
+}
+
+.popupbtn.btn-3:hover, .popupbtn.btn-3:focus {
+    background-color: white !important;
+    color: #06283A !important;
+    border: 1px solid #06283A !important;
+}
+
+.popupbtn.btn-3{
+border: 1px solid white !important;
+    color: #ffffff !important;
+    background-color: #06283A !important;
+}
+
+.popup-img{
+    width: 90%;
+    display: flex;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto ;
+}
+
+#myModal .modal-body{
+    padding: 35px;
+}
+
+#mc-embedded-subscribe-form-popup, #entry-form-popup{
+    background-color: #06283A !important;
+    padding: 35px;
+}
+
+#mc-embedded-subscribe-form-popup .form-control:focus, #entry-form-popup .form-control:focus {
+    border: 1px solid #ced4da;
+    color: #495057;
+    background-color: #fff;
+    /* border-color: #000000 !important; */
+    outline: #ced4da !important;
+    box-shadow: 0 0 0 0.2rem transparent;
+}
+
+#mc-embedded-subscribe-form-popup label.error, #entry-form-popup label.error{
+    color: red;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.popup-logo{
+    width: 30% !important;
+}
+
+@media only screen and (max-width: 767px) {
+  #myModal .modal-body {
+    padding: 10px;
+}
+
+.header-logo h3{
+    font-size: 18px;
+}
+
+.popup-logo{
+    width: 100% !important;
+}
+
+#myModal .modal-dialog {
+    max-width: 95%;
+    margin: 1.75rem auto;
+}
+
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+.contact-form-area.contact-page {
+    margin-top: 30px;
+}
+
+.popup-img {
+    width: 60%;
+    display: flex;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto ;
+}
+
+.popup-logo{
+    width: 80%;
+}
+
+}
+
+.header-area .credit-main-menu .classy-navbar {
+    height: 85px;
+    padding: 0;
+    background-color: #FEBA38!important;
+}
+
+.header-area .credit-main-menu .classy-nav-container {
+    background-color: #FEBA38;
+}
+
+.get-a-call a {
+    border-radius: 10px;
+    background-color: #06283A;
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+}
+
+
+.header-area #sticker-sticky-wrapper .credit-main-menu .classy-navbar .classynav ul li a:hover, .header-area .credit-main-menu .classy-navbar .classynav ul li a:focus {
+    color: white;
+}
+
+.header-area .credit-main-menu .classy-navbar .classynav ul li ul li a:hover {
+    color: #FEBA38 !important;
+    font-size: 14px;
+}
+
+</style>
+<!-- ##### Header Area Start ##### -->
+<header class="header-area">
+    <!-- Top Header Area -->
+    <div class="top-header-area">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 d-flex justify-content-between">
+                    <!-- Logo Area -->
+                    <div class="header-logo">
+                        <a href="index.php"><img src="img/logo/logo.png" alt=""></a>
+                    </div>
+
+                    <!-- Top Contact Info -->
+                    <div id="top-contact-info" class="top-contact-info d-flex align-items-center"
+                        style="margin-right:30px;">
+                        <a href="#" id="address" data-toggle="tooltip" data-placement="bottom"
+                            title="Rodney Bay, Gros Islet,St. Lucia,West Indies."><img
+                                src="img/core-img/placeholder.png" alt="">
+                            <span style="margin-right:30px;">Rodney Bay, Gros Islet,<br>
+                                St. Lucia,West Indies.</span>
+                        </a>
+                        <a href="#" id="address" data-toggle="tooltip" data-placement="bottom"
+                            title="Borehamwood,United Kingdom."><img src="img/core-img/placeholder.png" alt="">
+                            <span style="margin-right:30px;">Borehamwood,
+                                Hertfordshire,<br>
+                                WD6 1GS,
+                                United Kingdom.</span></a>
+                        <a href="mailto:info@euroeximbank.com" data-toggle="tooltip" data-placement="bottom"><img
+                                src="img/core-img/message.png" alt=""> <span>info@euroeximbank.com</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar Area -->
+    <div class="credit-main-menu" id="sticker">
+        <div class="classy-nav-container breakpoint-off">
+            <div class="container">
+                <!-- Menu -->
+                <nav class="classy-navbar justify-content-between" id="creditNav">
+
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
+
+                    <!-- Menu -->
+                    <div class="classy-menu">
+
+                        <!-- Close Button -->
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
+
+                        <!-- Nav Start -->
+                        <div class="classynav">
+                            <ul>
+                                <li><a href="index.php">Home</a></li>
+                                <li><a href="services.php">Services</a>
+                                    <ul class="dropdown">
+                                        <li id="submenu"><a href="trade-finance-instruments.php">Trade Finance
+                                                Instruments</a>
+                                            <ul class="dropdown submenu">
+                                                <li><a href="letter-of-credit.php">Documentary Letter of Credit</a></li>
+                                                <li><a href="standby-letter-of-credit.php">Standby Letter of Credit</a>
+                                                </li>
+                                                <li><a href="bank-guarantee.php">Bank Guarantees and Tender Guarantees</a>
+                                                </li>
+                                                <li><a href="proof-of-funds.php">Proof of Funds</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="services.php" id="mob-menu">Our Services</a></li>
+                                        <li><a href="trade-finance-instruments.php" id="mob-menu">Trade Finance
+                                                Instruments</a></li>
+                                        <!-- <li><a href="corporate-banking">Corporate Banking</a></li> -->
+                                        <li><a href="https://www.eximwave.com/" target="_blank"
+                                                title="Exim WAVE - Global Payment Processing">Exim Wave</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#!">About Us</a>
+                                    <ul class="dropdown">
+                                        <li><a href="about.php">About EEB</a></li>
+                                        <li><a href="careers.php">Careers</a></li>
+                                        <li><a href="euro-exim-foundation.php">Euro Exim Foundation</a></li>
+                                        <!-- <li><a href="gallery.php">Gallery</a></li> -->
+                                        <li><a href="licence-and-certification.php">Licence & Certification</a>
+                                        </li>
+                                        <li><a href="sales-team.php">Sales Team</a>
+                                        </li>
+                                        <li><a href="trdfin.php" title="TRDFIN | Back Office Service Provider">Back Office Service Provider</a>
+                                        </li>
+                                        <!-- <li id="submenu"><a href="media-centre">Media Centre</a>
+                                            <ul class="dropdown submenu">
+                                                <li><a href="newsletter">Newsletter</a></li>
+                                                <li><a href="events">Events</a>
+                                                </li>
+                                                <li><a href="publications">Publications</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="media-centre" id="mob-menu">Media centre</a></li> -->
+                                    </ul>
+                                </li>
+                                <li><a href="media-centre.php">Media centre</a></li>
+                                <!-- <li><a href="media-centre.php" id="mob-menu">Media centre</a></li> -->
+                                <li><a href="https://blog.euroeximbank.com/">Blog</a></li>
+                                <li><a href="corporate-profile.php">Corporate Profile</a></li>
+                                <li><a href="contact.php">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <!-- Nav End -->
+                    </div>
+    
+<!-- Calendly link widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+<!-- Calendly link widget end -->
+                    <!-- Contact -->
+                    <div class=" get-a-call">
+                       
+                        <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/euroeximbank-eeb/1-on-1_trade_finance_expert_eeb'});return false;">Schedule a Call</a>
+                    </div>
+                    <!-- <div data-toggle="modal" data-target="#call" class=" get-a-call">
+                        <a href="#"> -->
+                            <!-- <i class="fa fa-phone" aria-hidden="true"></i> -->
+                            <!-- Get a Call
+                        </a>
+                    </div> -->
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<!-- Modal -->
+<div class="modal fade" id="call" tabindex="-1" role="dialog" aria-labelledby="call" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content" style=" background-color: #06283A;">
+            <div class="modal-header get-a-call-modal">
+                <h5 class="modal-title" id="exampleModalCenterTitle" style="color: white;">Get a call</h5>
+                <button style="color: white;" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body  get-a-call-modal">
+                <div class="contact-form-area contact-page">
+
+                    <form method="POST" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" novalidate>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="NAME" id="name"
+                                        placeholder="Your Name *" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6  col-md-6">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="EMAIL" id="email"
+                                        placeholder="Your E-mail *" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6  col-md-6">
+                                <div class="form-group">
+                                    <select id="inputState" name="INS_TYPE" class="form-control" required>
+                                        <option disabled selected>Choose Instrument
+                                            type*</option>
+                                        <option>Letter of credit</option>
+                                        <option>Standby Letter of credit</option>
+                                        <option>Bank Guarantee</option>
+                                        <option>Proof of Funds</option>
+                                        <option>Others</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6  col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="COMNAME" name="COMNAME"
+                                        placeholder="Company Name *" required>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6  col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="MOBILE" name="MOBILE"
+                                        placeholder="Mobile Number *" required>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6  col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="CITY" name="CITY" placeholder="City *"
+                                        required>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <textarea style="height:unset;" class="form-control" name="MESSAGE" id="message"
+                                        rows="3" cols="50" placeholder="Your Message *" required></textarea>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <div class="checkbox">
+                                        <label style="font-size:11px"><input type="checkbox" value="Agree" name="terms"
+                                                required> By
+                                            providing your
+                                            information, you grant consent to be
+                                            contacted by Euro Exim Bank and you agree to <a style="font-size: 11px;color:white;" target="_blank" href="assets/privacy_and_legal/Privacy_Policy_EuroEximBank.pdf">Privacy Policy</a>
+                                            and <a style="font-size: 11px;color:white;" target="_blank" href="assets/privacy_and_legal/Terms_and_conditions_Euro_Exim_Bank.pdf">Terms &amp; Conditions.</a></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <div class="checkbox">
+                                        <label style="font-size:11px"><input type="checkbox" value="True"
+                                                name="subscribtion"> Yes,
+                                            please keep me informed
+                                            about news, updates, promotions
+                                            and offers from Euro Exim Bank. </label><br> <br>
+                                        <p style="font-size:10px">Euro Exim Bank is in
+                                            compliance with General Data Protection Regulation (GDPR)
+                                            introduced across Europe on 25 May 2018.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="subscribe_result" style="padding:10px;"></div>
+                            <div class="col-12 text-center" id="success"
+                                style="display:none;background-color:green;color:white;margin-bottom:30px;">
+                                <p style="padding:10px;color:white;margin-bottom:0px;">Thanks for Contacting Us!! <br>
+                                    We will get back to you soon!!</p>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button id="submitQuote" class="btn credit-btn btn-3 getaquote"
+                                    type="submit">Send</button>
+                            </div>
+
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ##### Header Area End ##### -->
+
+
+
+<!--POPUP for registration-->
+
+
+<!-- <div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-12 col-sm-12 col-12">
+			<div class="popup-btn" onclick="document.getElementById('id01').style.display='block'">
+				<a href="#id01">Create Account</a>
+			</div>
+			<div id="id01" class="modal modal-pop">
+				<div class="offset-lg-4 col-lg-4 offset-sm-1 col-sm-10 offset-1 col-10">
+					<div class="modal-body">
+						<form class="modal-content modal-pop-content animate" action="">
+						 	<div class="modal-header">
+						        <h5 class="modal-title">Create your account now!!</h5>
+						    </div>
+							 	<span onclick="document.getElementById('id01').style.display='none'" class="close-pop" title="Close Modal">Ã—</span>
+							<div class="form-part">
+
+							 	 <p>Register a new account - <a class="link-text" href="#register" data-toggle="modal"
+                                data-target="#register">Register here</a></p>
+                        <p>Already have an account - <a class="link-text" href="#login" data-toggle="modal"
+                                data-target="#login">Login here</a></p>
+                        <p>* Please refer our <a class="link-text" style="font-weight: 600;" href="#termsandconditions"
+                                data-toggle="modal" data-target="#termsandconditions">Terms & Conditions</a> for Account
+                            Opening here</p>
+                        <p>    *Online Banking Terms and Conditions of Euro Exim Bank apply.</p>
+				
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+<!-- Modal for terms&conditions-->
+<div class="modal fade" id="termsandconditions" tabindex="-1" role="dialog" aria-labelledby="termsandconditions"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content" style=" margin-top:200px;">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">GENERAL TERMS AND CONDITIONS</h5>
+                <button style="padding:0px;margin:0px" type="button" class="close" data-dismiss="modal"
+                    aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container ">
+                    <div class="main-block">
+                        <div class="row">
+                            <div class="col-md-12 Divtxt modal-scroll">
+                                <h3>Application Acceptance, Liability and Customer Instructions </h3>
+                                <p>Euro Exim Bank may accept or reject in whole or in part my application to
+                                    open any Account at my
+                                    discretion. The rejection or cancellation of my application may be
+                                    communicated to me by any means,
+                                    whether oral or otherwise, or through the omission by me to issue a
+                                    Confirmation. In either case,
+                                    notification of acceptance or rejection shall be served on me at such time
+                                    determined by me in
+                                    accordance with Euro Exim Bankâ€™s usual practice.</p>
+                                <p>1. Euro Exim Bank is authorised to treat as valid, accurate, authentic and
+                                    binding on me and to act
+                                    on any instructions (whether oral or written) purportedly given by me or any
+                                    Authorised Signatory
+                                    which are referred to me in accordance with my prescribed verification
+                                    procedure at that time and I
+                                    will have no obligation to further investigate the authenticity or authority
+                                    of person(s) providing
+                                    the instructions, and regardless of the circumstances prevailing at the time
+                                    of such instructions or
+                                    the nature of the transaction and notwithstanding any error,
+                                    misunderstanding, inaccuracy or
+                                    incompleteness or lack of clarity in the terms of such instructions,
+                                    including but not limited to
+                                    instructions given or purported to be given by me.</p>
+                                <p>2. I agree that Euro Exim Bank may leave a message for me/us on an answering
+                                    machine or facsimiles or
+                                    with any person answering the phone or with an automated dialling system.
+                                </p>
+                                <p>3. Euro Exim Bank is permitted to act on any instructions given by an
+                                    authorised person provided the
+                                    security procedures are followed, however Euro Exim Bank may refuse to act
+                                    on any instruction if it
+                                    is unclear or might be in breach of a law, regulation or contractual
+                                    agreement between Euro Exim
+                                    Bank and us.</p>
+                                <p>4. Euro Exim Bank will not be liable to me/us for any loss, indirect or
+                                    consequential, incurred by
+                                    not acting on my/our instructions, such failure being caused by force
+                                    majeure, acts beyond our
+                                    reasonable control.</p>
+                                <p>5. Euro Exim Bank shall give notice of any variation in operation, features,
+                                    terms and conditions of
+                                    the service and the times the service will be available.</p>
+                                <p>6. I agree to indemnify Euro Exim Bank against any loss, damage or liability
+                                    which might occur as a
+                                    result of non-compliance with the above and I shall be solely or jointly
+                                    liable for any negligence,
+                                    misuse, dishonesty or unlawful use whatsoever of the service provided
+                                    herewith.</p>
+
+                                <p>7. Euro Exim Bank agrees to the use and disclosure of my/our information as
+                                    set out in this
+                                    notification.</p>
+
+                                <p>8. I accept that deposits and their payments are governed by laws in effect
+                                    from time to time in the
+                                    applicable jurisdiction.</p>
+
+                                <p>9. I acknowledge that all transactions can only be executed on line by
+                                    logging on to the online
+                                    banking platform.</p>
+                                <p>10. Euro Exim Bank will take reasonable care to ensure that any information
+                                    provided to me is an
+                                    accurate reflection of the information contained in our computer systems or,
+                                    where the information
+                                    provided by a third party, accurately reflects the information we receive
+                                    from that third party.</p>
+                                <p>11. Euro Exim Bank does not warrant that the information provided is always
+                                    accurate or error free.
+                                    Some of the information available through the Service or Mobile Banking may
+                                    be identified on the
+                                    screens or in the User Guide as subject to a disclaimer or other provisions.
+                                    If I rely on that
+                                    information, I do so subject to the disclaimer or those provisions.</p>
+                                <p>12. I agree that unless Euro Exim Bank have specifically agreed with me
+                                    otherwise, Euro Exim Bank
+                                    shall have no liability whatsoever for:</p>
+                                <p>a. Any equipment, software or associated user documentation which any
+                                    third-party other than
+                                    us produces at any time for use in connection with the Service or Mobile
+                                    Banking; or</p>
+
+                                <p>b. Any services through which I access the Service or Online Banking or which
+                                    I access through the
+                                    Service or Online Banking which are not controlled by us.</p>
+                                <p>13. Euro Exim Bank shall not be liable to me for any loss I suffer due to any
+                                    event or abnormal or
+                                    unforeseeable circumstances beyond my control, which leads to the Service or
+                                    Online Banking Platform
+                                    being wholly or partly unavailable such as, but not limited to, technical
+                                    breakdown, strikes or
+                                    other industrial action (whether or not involving Euro Exim Bankâ€™s
+                                    employees) or communications or
+                                    power failure, the consequences of which would have been unavoidable,
+                                    despite all efforts to the
+                                    contrary.</p>
+                                <p>14. Euro Exim Bank is not obliged to monitor my use of the Service or Online
+                                    Banking Platform for any
+                                    failure by Euro Exim Bank to carry out my obligations under the Terms or
+                                    notify me of such failure.
+                                </p>
+
+                                <h3>Deposits </h3>
+                                <p>1. I shall make deposit(s) to the Account(s) in such manner as I may
+                                    prescribe from time to time.
+                                    Receipt tickets for deposits will be validated by Euro Exim Bankâ€™s machine
+                                    stamp, computer terminal
+                                    or authorised signatory.</p>
+
+
+                                <h3>Taking money Summary </h3>
+                                <p>1. Euro Exim Bank will allow withdrawals or payments from my account if I
+                                    have enough available money
+                                    in my account, or enough unused Arranged Overdraft, to cover the withdrawal
+                                    or payment. </p>
+                                <p>2. Euro Exim Bank must be provided with the following Payment Details:</p>
+                                <p>a. For payments and electronic transfer of funds, the name (or the account
+                                    name, if different),
+                                    account number and sort-code of the person you want to pay;</p>
+
+                                <p>b. For an international transfer of funds: (i) the name, address, routing
+                                    code (if applicable) and
+                                    correct Bank Identifier Code (BIC) of the bank of the person you want to
+                                    pay; (ii) the bank account
+                                    number or IBAN (International Bank Account Number) of the beneficiary you
+                                    want to pay; (iii) the
+                                    name and the registered address of the beneficiary you want to pay and (iv)
+                                    you name and account
+                                    number (v) beneficiaryâ€™s company registration number, (vi) beneficiaryâ€™s
+                                    company business activity
+                                    (vii) reason and evidence of payment.</p>
+
+                                <p>c. You must provide us with all of the following details (â€˜International
+                                    Identifierâ€™) to enable us to
+                                    make an International Payment: a) the recipientâ€™s bank name, address,
+                                    routing code and correct Bank
+                                    Identifier Code (BIC); b) the recipientâ€™s bank account number or IBAN
+                                    (International Bank Account
+                                    Number); c) the name and address of the recipient to whom the payment is to
+                                    be made; and d) you name
+                                    and account number.</p>
+
+                                <p>3. Euro Exim Bank will be treated as having received a Payment Instruction
+                                    from me (or, if
+                                    applicable, the person requesting a payment from me) at the time that
+                                    instruction is actually
+                                    received by Euro Exim Bank, except:</p>
+
+                                <p>a. If Euro Exim Bank receives the Payment Instruction on a non-working day,
+                                    then it will be treated
+                                    as having been received on the following working day. If my Payment
+                                    Instruction is an instruction to
+                                    withdraw cash using my card and PIN from a cash machine or an instruction
+                                    made using a card and PIN,
+                                    it will be treated as having been received by Euro Exim Bank at the time
+                                    that instruction is
+                                    actually received by us; or </p>
+
+                                <p>b. If the Payment Instruction is received by us after 5pm, it will be treated
+                                    as having been received
+                                    on the following working; or </p>
+
+                                <p>c. If my Payment Instruction specifies that the payment is to take place on a
+                                    specific day or on the
+                                    last day of a certain period, then Euro Exim Bank will treat it as having
+                                    been received on the day
+                                    specified, unless that day is a non-working day (in which case the following
+                                    working day will
+                                    apply).</p>
+
+
+                                <h3>Processing of Payment Instructions</h3>
+                                <p>1. You can request certain payments through the Service. When I have provided
+                                    my instruction, I will
+                                    be asked to confirm it, which will be my agreement for Euro Exim Bank to
+                                    make the payment.
+                                </p>
+                                <p>2. I request and authorise Euro Exim Bank to:
+                                </p>
+                                <p>a. Rely and act upon all apparently valid payment or transfer instructions as
+                                    properly authorised
+                                    through the Service, even if it may conflict with any other mandate given at
+                                    any time concerning you
+                                    account(s) or affairs, and</p>
+                                <p>b. Debit my account(s) with any amount I have paid, transferred or incurred
+                                    in accordance with the
+                                    instruction.</p>
+
+                                <p>3. My payment instructions will only be accepted by Euro Exim Bank after my
+                                    Security Details have
+                                    been accepted and it passes any further authenticity checks.</p>
+
+                                <p>4. Euro Exim Bank may refuse to act upon a payment instruction, for example,
+                                    if it exceeds the limit
+                                    that Euro Exim Bank has set for such an instruction, or if Euro Exim Bank
+                                    knows of or suspects a
+                                    breach of my Security Details. If Euro Exim Bank decided to decrease my
+                                    default maximum limits at
+                                    any time, Euro Exim Bank will override any limits that may be above my new
+                                    maximum limits. To
+                                    increase you limits at any time, please call Euro Exim Bank.</p>
+
+
+                                <p>5. Euro Exim Bank will not be responsible if the circumstances giving rise to
+                                    an incorrect payment or
+                                    transfer, or a payment or transfer not being made were due to abnormal and
+                                    unforeseeable
+                                    circumstances beyond Euro Exim Bankâ€™s control, the consequences of which
+                                    would have been unavoidable
+                                    despite all efforts to the contrary.</p>
+
+                                <p>6. Euro Exim Bank may, at any time, suspend my access to the Service. Euro
+                                    Exim Bank will normally
+                                    give you advance notice if Euro Exim Bank is going to suspend you use of the
+                                    Service.</p>
+
+                                <p>7. Euro Exim Bank will tell you why we are taking this action, but Euro Exim
+                                    Bank will not give me
+                                    notice or details of the reason for the suspension if this would compromise
+                                    Euro Exim Bankâ€™s
+                                    reasonable security measures, or if it is unlawful to do so. Euro Exim Bank
+                                    may occasionally suspend
+                                    my use of the Service without notifying me where Euro Exim Bank has been
+                                    unable to contact me in
+                                    advance. Euro Exim Bank may also suspend my use of the Service due to local
+                                    legal obligations that
+                                    applies to Euro Exim Bank.</p>
+
+                                <p>8. Euro Exim Bank will use reasonable efforts to inform me without undue
+                                    delay through the Service
+                                    and/or our website, if any service under the Service is not available.</p>
+
+                                <p>9. Euro Exim Bank will not always carry out a payment or transfer instruction
+                                    immediately following
+                                    it being requested by me. Some matters may take time to process and my
+                                    instruction may only be
+                                    processed during normal banking hours.</p>
+
+
+                                <h3>Payment Limits</h3>
+                                <p>1. Maximum daily limits apply to the amount of cash I can withdraw using my
+                                    card.</p>
+
+                                <p>2. Euro Exim Bank can refuse any withdrawal or payment from my account, if:
+                                </p>
+                                <p>a. I do not have enough available money in my account; </p>
+                                <p>b. I have exceeded my maximum daily withdrawal; </p>
+                                <p>c. It may place Euro Exim Bank in breach of any legislation or law;</p>
+                                <p>d. Euro exim Bank suspects it relates to fraud or any other criminal act
+                                </p>
+                                <p>e. I am in breach of any of these Conditions.</p>
+                                <p>3. If Euro Exim Bank refuses to allow a withdrawal or payment from my
+                                    Account, Euro Exim Bank will
+                                    tell me the following by the end of the next working day after the day Euro
+                                    Exim Bank receives my
+                                    withdrawal or payment request; </p>
+                                <p>a. That Euro Exim Bank has done so;</p>
+                                <p>b. The reason why Euro Exim Bank refused; and </p>
+                                <p> c. If I think Euro Exim Bank has based its decision on mistaken information,
+                                    how I can ask Euro Exim
+                                    Bank to rectify that mistake.
+                                    Euro Exim Bank will not tell me that they are refusing a payment or
+                                    withdrawal if the law prevents
+                                    Euro Exim Bank from doing so.</p>
+
+                                <h3>Joint Accounts</h3>
+                                <p>1. The holders of a joint account authorises Euro Exim Bank to pay or
+                                    deliver, or to the order of,
+                                    the survivors or survivor or the executors or administrators of such
+                                    survivor any moneys standing to
+                                    the credit of joint account;</p>
+                                <p>a. All liability on a joint account is joint and several;</p>
+                                <p>b. Any mandate intimation, notice, request or letter varying the original
+                                    instruction regarding the
+                                    operation on the account, issue of mandate for or annulling the stop payment
+                                    of cheques, debit to
+                                    the joint accounts etc., affecting the operations on the joint account will
+                                    be acted upon by the
+                                    Bank only if these are signed by minimum number of such people who are
+                                    authorized to operate on the
+                                    Joint Account. This applies with equal force to authenticating material
+                                    alteration(s) in the
+                                    cheque(s) or other mandate(s) instructing the Bank to debit such accounts.
+                                </p>
+
+                                <h3>Partnership Accounts</h3>
+                                <p>1. In the event of the Customer being a partnership the following additional
+                                    provisions apply:-</p>
+                                <p>a. The partners authorize the bank to carry out instructions countermanding
+                                    payment of cheques, bills
+                                    of exchange, promissory notes or other orders for payment when such
+                                    instructions are given by any
+                                    person who is authorized to sign the mandate whether or not that person has
+                                    signed the original
+                                    payment instruction.</p>
+                                <p>b. The partners authorize the Bank to make advances with or without security
+                                    by way of overdraft,
+                                    loan or any other manner on the request of partners for the time being made
+                                    in accordance with the
+                                    mandate, and to discount bills or promissory notes on the request of the
+                                    partners for the time being
+                                    made in accordance with the mandate.</p>
+                                <p>c. The partners authorize the Bank to accept by way of pledge or deposit as
+                                    security or for safe
+                                    custody anything belonging to the partnership on the instructions on the
+                                    partners for the time being
+                                    made in accordance with the mandate, and to deliver upon the said
+                                    instructions anything as accepted
+                                    or held on account of the partnership.</p>
+                                <p>d. All liability of the partners to the Bank is joint and several.
+                                </p>
+                                <p>e. Upon any change in the constitution of the partnership, the partners will
+                                    sign a new mandate.</p>
+                                <p>f. A mandate remains in force and may be acted upon by the Bank until it has
+                                    either been revoked in
+                                    writing by all or any of the signatories or until it has been replaced by a
+                                    new mandate and such
+                                    revocation or new mandate has reached the Bank and not until that event has
+                                    happened, the Bank will
+                                    be responsible for acting according to the original mandate.</p>
+
+                                <h3>Security Obligations</h3>
+                                <p>1. I must take all reasonable precautions to keep safe and prevent fraudulent
+                                    use of my devices and
+                                    security information. These precautions include:</p>
+                                <p>a. Never writing down or otherwise recording my security details in a way
+                                    that can be understood by
+                                    someone else;</p>
+                                <p>b. Not choosing security details that may be easy to guess;</p>
+                                <p>c. Taking care to ensure that no one hears or sees my security details when I
+                                    use it;</p>
+                                <p>d. Keeping my security details unique;</p>
+                                <p>e. Not disclosing my security details to anyone, including the police and
+                                    Euro Exim Bank;</p>
+                                <p>f. Changing my security details immediately and telling Euro Exim Bank as
+                                    soon as possible if I know,
+                                    or even suspect, that someone else knows my security details, or if Euro
+                                    Exim Bank asks me to;</p>
+                                <p>g. Keeping my security details and devices safe;</p>
+                                <p>h. Complying with all reasonable instructions we issue regarding keeping my
+                                    security details safe;
+                                </p>
+                                <p>i. Once I have logged onto the online banking platform, I will not leave my
+                                    devices unattended or let
+                                    anyone else use my devices;</p>
+                                <p>j. Logging out of my devices once I have finished using the online banking
+                                    platform services and, in
+                                    particular, not leaving the online banking platform in the background whilst
+                                    logged in;</p>
+                                <p>k. I will never disclose my security details to them or information about my
+                                    accounts with Euro Exim
+                                    Bank;</p>
+                                <p>l. Undertake reasonable and adequate precautions to scan for computer viruses
+                                    or other destructive
+                                    properties.</p>
+                                <p>2. I must not use the online banking platform on any device or operating
+                                    system that has been
+                                    modified outside its operating system vendor supported or warranted
+                                    configurations. This includes
+                                    devices that have been â€œjail-brokenâ€ or â€œrootedâ€.</p>
+
+                                <p>3. Euro Exim Bank will never contact me after initial registration (or ask
+                                    anyone to do so on Euro
+                                    Exim Bankâ€™s behalf) with a request to disclose my security details in full.
+                                    If I receive any such
+                                    request from anyone (even if they are using Euro Exim Bankâ€™s name and logo
+                                    and appear to be genuine)
+                                    then I will not supply my security details to them in any circumstances.
+                                    Additionally, I will report
+                                    any such requests to Euro Exim Bank immediately.</p>
+
+                                <p>4. I will be responsible for all instructions given by me or anyone acting
+                                    with my authority between
+                                    when I log onto the online banking platform until I log off.</p>
+
+                                <p>5. I am responsible for making sure information shown or stored on my devices
+                                    is kept secure.</p>
+
+                                <h3>Suspension of Accounts </h3>
+                                <p>1. Euro Exim Bank may at its reasonable discretion suspend my operation of
+                                    the Account(s) at any time
+                                    for any reason whatsoever; including without limitation industrial actions,
+                                    power failure, computer
+                                    breakdown or sabotage or any other event beyond my reasonable control. </p>
+
+                                <p>2. I agree that Euro Exim Bank may block any payment or transaction with
+                                    respect to the Account where
+                                    such payment or transaction would result in Euro Exim Bank or Third Party
+                                    Service Provider being in
+                                    breach of Law or Regulation.</p>
+                                <h3>Freezing of Accounts</h3>
+                                <p>1. Euro Exim Bank may at any time freeze any of my accounts if and so long as
+                                    there is any dispute or
+                                    the Bank has doubt for any other reason (whether or not well founded) as to
+                                    the person or persons
+                                    entitled to operate the same, without any obligation to institute
+                                    interpleader proceedings or to
+                                    take any step of its own initiative for the determination of such dispute or
+                                    doubt.</p>
+                                <h3>Closing of Accounts </h3>
+                                <p>1. Euro Exim Bank may at any time and at its reasonable discretion, without
+                                    notice to me and without
+                                    Liability or disclosing or assigning any reasons to me, refuse to accept any
+                                    deposit(s), limit the
+                                    amount that may be deposited, return all or any part of the deposit(s) after
+                                    deducting any Collected
+                                    Amount, interest, charges and fees due or funds required to be made by Law
+                                    or Regulation, or upon
+                                    reasonable notice to me, terminate any of my Account(s) and discharge Euro
+                                    Exim Bankâ€™s entire
+                                    Liability. </p>
+
+                                <p>2. If I choose to terminate any of my Account(s) held with Euro Exim Bank, I
+                                    am required to give Euro
+                                    Exim Bank reasonable notice of termination or such other period of notice
+                                    which Euro Exim Bank may
+                                    specify to me from time to time. </p>
+
+                                <p>3. On the termination of my Account(s):- (a) Euro Exim Bank may discharge my
+                                    entire Liability with
+                                    respect to my Account(s) by mailing to me a draft or check in the
+                                    currency(ies) of the Account(s) or
+                                    in a currency(ies) as determined by Euro Exim Bank without recourse to me as
+                                    drawer, payable to my
+                                    order in the amount of the then credit balance in the Account(s) after
+                                    deducting my Outstanding
+                                    Indebtedness to Euro Exim Bank together with such other documents, if any,
+                                    as may be necessary to
+                                    transfer to me such claims as Euro Exim Bank may have on such funds, or, at
+                                    Euro Exim Bankâ€™s option,
+                                    by delivering to my Account(s) or (as the case may be) to a Joint Account of
+                                    all Account(s)
+                                    holder(s) of the Account(s), any Alternative Financial Instrument as
+                                    selected by me in my sole
+                                    discretion; and (b) Euro Exim Bank may, at my own cost and expense, transfer
+                                    all my Securities to me
+                                    or such person as I may direct.</p>
+
+                                <p>4. If Euro Exim Bank has effected a forward or any other transaction which
+                                    extends beyond the date of
+                                    termination, Euro Exim Bank may either close out or complete such
+                                    transaction and retain sufficient
+                                    funds for this purpose. Any security interest or set-off contained in an
+                                    agreement shall not be
+                                    discharged until all my Outstanding Indebtedness have been discharged.</p>
+
+                                <p>5. On the termination of my Account(s), I shall forthwith return to Euro Exim
+                                    Bank all unused checks
+                                    issued to me, failing which I shall indemnify Euro Exim Bank for any
+                                    reasonable costs or expenses
+                                    arising or in connection thereto. </p>
+
+                                <p>6. Upon the occurrence of any of the following events, Euro Exim Bank may
+                                    (without demand or notice)
+                                    terminate the Account(s) and/ or realise all or any of my Contracts and
+                                    other investment
+                                    transactions concluded directly or indirectly with or through Euro Exim Bank
+                                    to repay my Outstanding
+                                    Indebtedness to Euro Exim Bank including all interest, costs and expenses in
+                                    connection with the
+                                    recovery of such indebtedness: - </p>
+                                <p>a. My failure to comply with any provision of these Terms and Conditions or
+                                    any</p>
+                                other Agreement; <p></p>
+                                <p>b. Any grounds exist for the presentation of a bankruptcy petition against
+                                    me; </p>
+                                <p>c. My death or insanity; </p>
+                                <p>d. A receiver, trustee, custodian, judicial manager or similar official is
+                                    appointed or an
+                                    encumbrancer takes possession of me or the whole or any substantial part of
+                                    my property or
+                                    undertaking; </p>
+                                <p>e. The institution or commencement by petition, application, entry of an
+                                    order for relief or
+                                    otherwise of any bankruptcy, insolvency, reorganisation, arrangement,
+                                    composition of debt,
+                                    dissolution, liquidation or any similar proceeding relating to me under any
+                                    applicable law; </p>
+                                <p>f. The performance of any obligation of mine or Euro Exim Bank under these
+                                    Terms and Conditions
+                                    becomes illegal or impossible; or </p>
+                                <p>g. It is required to comply with any Law or Regulation.</p>
+
+                                <p>7. It is a condition that I do not: </p>
+                                <p>a. Act abusively, offensively or violently towards Euro Exim Bank staff; or
+                                </p>
+                                <p>b. Become bankrupt; or </p>
+                                <p>c. Misuse my account; or</p>
+                                <p>d. Act dishonestly with Euro Exim Bank; or</p>
+                                <p>e. Act in any way to give rise to reasonable suspicion of fraud or other
+                                    criminal activities; And, if
+                                    any of the above applies, I will be in breach of these Conditions and Euro
+                                    Exim Bank can close my
+                                    account. </p>
+
+                                <h3>Using Bank Cards </h3>
+                                <p>1. Cards are Euro Exim Bankâ€™s property and Euro Exim Bank can ask me to
+                                    return them to Euro Exim
+                                    Bank.</p>
+
+                                <p>2. Euro Exim Bank will tell me how to obtain the PIN to be used with my card.
+                                    Euro Exim Bank may also
+                                    ask me to provide my Personal Security Details as a means of identification,
+                                    for example when buying
+                                    goods with my card.</p>
+
+
+                                <p>3. I will cancel my card by notifying and returning it to Euro Exim Bank. I
+                                    must cut my cards once it
+                                    has been cancelled.</p>
+                                <h3>Unauthorised Transactions</h3>
+                                <p>1. I will be responsible for all losses arising from unauthorised
+                                    transactions on my Account as a
+                                    result of:</p>
+                                <p>a. Acting fraudulently, or</p>
+                                <p>b. Intentionally or with gross negligence failing to use the Mobile Banking
+                                    app in accordance with
+                                    the Terms (including keeping safe my Mobile Banking security details), or
+                                </p>
+                                <p>c. Intentionally or with gross negligence failing to notify Euro Exim Bank if
+                                    I know or suspect
+                                    someone else knows my Mobile Banking security details or has used or tried
+                                    to use my security
+                                    details.</p>
+                                <h3>Abnormal and Unforeseen Circumstances</h3>
+                                <p>1. Euro Exim Bank is not responsible if Euro Exim Bank does not comply with
+                                    any of the Terms:</p>
+                                <ul>
+                                    <li>â€¢ Due to abnormal and unforeseeable circumstances beyond Euro Exim
+                                        Bankâ€™s control, the
+                                        consequences of which would have been unavoidable despite all efforts to
+                                        the contrary; or</li>
+                                    <li>â€¢ Where our failure to comply is due to our obligations under the
+                                        applicable laws. </li>
+                                </ul>
+                                <h3>Third Party Charges</h3>
+                                <p>1. There may be other third-party banks that apply charges in effecting the
+                                    International Payment
+                                    which may be deducted from the amount transferred by me or from funds
+                                    received by me via an
+                                    International Payment. This will mean that the sum received by the
+                                    beneficiary or by me may be less
+                                    than the amount I have sent or received. b) If any charges are passed back
+                                    to Euro Exim Bank by a
+                                    third-party bank, Euro Exim Bank reserves the right to debit my account with
+                                    these charges.</p>
+                                <h3>FATCA/CSR Policy</h3>
+                                <p>1. <b>Information Euro Exim Bank disclose:</b> Subject to applicable local
+                                    laws, I hereby consent for
+                                    Euro Exim Bank or any of its affiliates (including branches) to share my
+                                    information with domestic
+                                    or overseas regulators or tax authorities where necessary to establish my
+                                    tax liability in any
+                                    jurisdiction.</p>
+                                <p>2. <b>Information Must be Correct:</b> I agree and undertake to notify Euro
+                                    Exim Bank Limited within
+                                    30 calendar days if there is a change in any information which I have
+                                    provided to Euro Exim Bank
+                                    Limited.</p>
+                                <p>3. <b>Withholding of Funds:</b> Where required by domestic or overseas
+                                    regulators or tax authorities,
+                                    I consent and agree that Euro Exim Bank Limited may withhold, and pay out,
+                                    from my account(s) such
+                                    amounts as may be required according to applicable laws, regulations,
+                                    agreements with regulators or
+                                    authorities and directives.</p>
+                                <h3>Customer Data Retention Policy</h3>
+                                <p>1. The bank will implement and adhere to information legislation and policies
+                                    relating to my
+                                    information and will ensure that my information is securely disposed of at
+                                    the end of the seven
+                                    years retention period.</p>
+                                <h3>DECLARATION</h3>
+                                <p>1. I represent and warrant that all information (including any documents) I
+                                    have given to Euro Exim
+                                    Bank in connection with the application is correct, complete and not
+                                    misleading. (If this is not the
+                                    case, I may be personally liable);<br>
+                                    2. I authorize Euro Exim Bank to verify any of the information I have given
+                                    Euro Exim Bank or my
+                                    credit standing from anyone Euro Exim Bank may consider appropriate (such as
+                                    an authority or credit
+                                    reference agency);<br>
+                                    3. I acknowledge that Euro Exim Bank will perform due diligence and
+                                    anti-money laundering checks
+                                    prior to opening any account.<br>
+                                    4. I acknowledge that Euro Exim Bank may decline my application without
+                                    giving me any reason for
+                                    doing so. If this happens, no contractual relationship arises between me or
+                                    Euro Exim Bank;<br>
+                                    5. I confirm and agree that Euro Exim Bank may give any information in
+                                    connection with this
+                                    application (including my personal information) to any service provider for
+                                    the purposes of
+                                    providing any service to me in connection with this application (including
+                                    data processing);<br>
+                                    6. I understand that by entering into our banking agreement I give
+                                    indemnities, authorizations,
+                                    consents and waivers and agree to limitations on our liability;<br>
+                                    7. I consent to Euro Exim Bank contacting me at the address, email address
+                                    and telephone numbers I
+                                    have provided to Euro Exim Bank, to give me information on other products
+                                    and services that Euro
+                                    Exim Bank, or our strategic partners may offer;<br>
+                                    8. If I am applying for an Account, I confirm that I have read and
+                                    understood the terms and
+                                    conditions governing the opening, operation and closure of the accounts with
+                                    Euro Exim Bank Limited
+                                    as published on www.euroeximbank.com or associated websites and agree to be
+                                    bound by it.<br>
+                                    9. I agree that the account opening fees are non-refundable once paid.<br>
+                                    10. I authorise the bank to review the account(s) and transactions from time
+                                    to time and agree to
+                                    provide further documents and clarification upon request. Failure to provide
+                                    such documents and
+                                    clarifications may result in closure of the account(s) without any
+                                    notice.<br>
+                                    11. I agree to provide evidence to support inward and outwards remittances
+                                    as and when required by
+                                    the bank.<br>
+                                </p><br>
+                                <p><b>Declaration of acceptance:</b> I declare that the particulars given by me/
+                                    us are true. I confirm
+                                    that I have read the terms and conditions governing the opening, operation
+                                    and closure of the
+                                    accounts with Euro Exim Bank limited as published on www.euroeximbank.com
+                                    and agree to be bound by
+                                    them.</p>
+                            </div>
+                            <!--end Divtxt -->
+
+                        </div>
+                        <!--end Main Block -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Modal for terms &conditions ends-->
+
+
+<!-- <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <h2>Welcome To Elevenstech Web Tutorial</h2>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+
+  
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="call" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content" style="background-color: transparent;border:none;">
+            
+            <div class="modal-body  get-a-call-modal" style="background-color: transparent;">
+                <button type="button" class="close closeVideo" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                  </button>
+                    <!-- <div class="col-md-12 col-lg-6 col-xs-12 col-sm-12 my-auto mx-auto">
+                        <img class="popup-img" src="img/popup/web-popup.png" alt="" srcset="">
+                    </div> -->
+                        <div class="contact-form-area contact-page">
+                                    <form method="POST" id="entry-form-popup" name="entry-form-popup" novalidate >
+
+                                        <div class="header-logo">
+                                                 <a><img src="img/logo/logo.png" class="popup-logo" alt=""></a>
+                                                 <h3 class="mt-5 mb-5 text-white">ACQUIRE YOUR TRADE INSTRUMENTS
+                                                    WITHIN 48 HOURS*</h3></div>
+                                        
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" name="NAME" id="name"
+                                                        placeholder="Your Name *" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6  col-md-6">
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control" name="EMAIL" id="email"
+                                                        placeholder="Your E-mail *" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6  col-md-6">
+                                                <div class="form-group">
+                                                    <select id="inputState" name="INS_TYPE" class="form-control" required>
+                                                        <option disabled selected>Choose Instrument
+                                                            type*</option>
+                                                        <option>Letter of credit</option>
+                                                        <option>Standby Letter of credit</option>
+                                                        <option>Bank Guarantee</option>
+                                                        <option>Proof of Funds</option>
+                                                        <option>Others</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                
+                                            <div class="col-lg-6  col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" id="COMNAME" name="COMNAME"
+                                                        placeholder="Company Name *" required>
+                                                </div>
+                                            </div>
+                
+                                            <div class="col-lg-6  col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" id="MOBILE" name="MOBILE"
+                                                        placeholder="Mobile Number *" required>
+                                                </div>
+                                            </div>
+                
+                                            <div class="col-lg-6  col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" id="CITY" name="CITY" placeholder="City *"
+                                                        required>
+                                                </div>
+                                            </div>
+                
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <textarea style="height:unset;" class="form-control" name="MESSAGE" id="message"
+                                                        rows="3" cols="50" placeholder="Your Message *" required></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <div class="checkbox">
+                                                        <label style="font-size:11px;"><input type="checkbox" class="mr-2" value="Agree" name="terms"
+                                                                required> By
+                                                            providing your
+                                                            information, you grant consent to be
+                                                            contacted by Euro Exim Bank and you agree to <a class="text-white" style="font-size: 11px;cursor: pointer;" target="_blank" href="assets/privacy_and_legal/Privacy_Policy_EuroEximBank.pdf" >Privacy Policy</a>
+                                                            and <a class="text-white" style="font-size: 11px;cursor: pointer;"target="_blank" href="assets/privacy_and_legal/Terms_and_conditions_Euro_Exim_Bank.pdf" >Terms &amp; Conditions.</a></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <div class="checkbox">
+                                                        <label style="font-size:11px;"><input type="checkbox" class="mr-2" value="True"
+                                                                name="subscribtion"> Yes,
+                                                            please keep me informed
+                                                            about news, updates, promotions
+                                                            and offers from Euro Exim Bank. </label><br> <br>
+                                                        <p style="font-size:10px">Euro Exim Bank is in
+                                                            compliance with General Data Protection Regulation (GDPR)
+                                                            introduced across Europe on 25 May 2018.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="subscribe_result" style="padding:10px;"></div>
+                                            <div class="col-12 text-center" id="success"
+                                                style="display:none;background-color:green;color:white;margin-bottom:30px;">
+                                                <p style="padding:10px;color:white;margin-bottom:0px;">Thanks for Contacting Us!! <br>
+                                                    We will get back to you soon!!</p>
+                                            </div>
+                                            <div class="col-12" id="entrypopup">
+                                                <button id="submitQuote" class="btn  popupbtn btn-3 getaquote credit-btn"
+                                                    type="submit">Get a call</button>
+                                            </div>
+                
+                
+                                        </div>
+                                    </form>
+                        </div>
+            
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="modal" tabindex="-1" role="dialog" id="terms">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Modal body text goes here.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="modal" tabindex="-1" role="dialog" id="pp">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Modal body text goes here.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  
+
+
+  
+
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+
+
+
+<script>
+
+    $(document).ready(function () {
+
+
+        // validate contactForm form
+        $(function () {
+            $('#mc-embedded-subscribe-form').validate({
+                rules: {
+                    NAME: {
+                        required: true,
+                        minlength: 2
+                    },
+                    EMAIL: {
+                        required: true,
+                        email: true
+                    },
+                    INS_TYPE: {
+                        required: true
+                    },
+                    COMNAME: {
+                        required: true,
+                        minlength: 5
+                    },
+                    MOBILE: {
+                        required: true,
+                        minlength: 10
+                    },
+                    CITY: {
+                        required: true,
+                        minlength: 3
+                    },
+                    MESSAGE: {
+                        required: true,
+                        minlength: 20
+                    },
+                    terms: {
+                        required: true
+                    }
+
+                },
+                messages: {
+                    NAME: {
+                        required: "come on, you have a name, don't you?",
+                        minlength: "your name must consist of at least 2 characters"
+                    },
+                    EMAIL: {
+                        required: "no email, no contact"
+                    },
+                    INS_TYPE: {
+                        required: "Please choose instrument type"
+                    },
+                    COMNAME: {
+                        required: "Please enter your Company Name",
+                        minlength: "your Company name must consist of atleast 5 characters"
+                    },
+                    MOBILE: {
+                        required: "come on, you have a mobile number, don't you?",
+                        minlength: "your Mobile Number must consist of atleast 10 characters"
+                    },
+                    CITY: {
+                        required: "Where are you from?",
+                        minlength: "your City Name must consist of atleast 3 characters"
+                    },
+                    MESSAGE: {
+                        required: "Please enter your message",
+                        minlength: "your message must consist of atleast 20 characters"
+                    },
+                    terms: {
+                        required: "You must agree to our terms and conditions"
+                    }
+                },
+                errorPlacement: function (error, element) {
+                    if (element.attr('type') == 'radio') {
+                        // Radio
+                        error.appendTo(element.parent().parent());
+                    } else if (element.attr('type') == 'checkbox') {
+                        // Checkbox
+                        error.appendTo(element.parent().parent());
+                    } else if (element.attr('type') == 'select') {
+                        // Select
+                        error.appendTo(element.parent().parent());
+                    } else {
+                        // Any other field
+                        error.insertAfter(element);
+                    }
+                },
+                submitHandler: function (form) {
+                    $('#mc-embedded-subscribe-form #submitQuote').html('Please Wait...');
+                    $("#mc-embedded-subscribe-form #submitQuote").attr("disabled", true);
+                    $('#mc-embedded-subscribe-form:input').attr('readonly', 'readonly');
+                    $(form).ajaxSubmit({
+                        type: "POST",
+                        data: $(form).serialize(),
+                        url: "form-submit.php",
+                        success: function () {
+                            $('#mc-embedded-subscribe-form #submitQuote').hide();
+                            $('#mc-embedded-subscribe-form #success').show();
+                            // swal("Thanks for Contacting us", "We will connect with you in 24hrs!!", "success")
+                        },
+                        error: function () {
+                            swal("Oops!", "Check your internet connection and Please try after sometime!", "error")
+
+                        }
+                    });
+                    $(form).ajaxSubmit({
+                        type: "POST",
+                        data: $(form).serialize(),
+                        url: "get-a-quote-mc.php",
+                        success: function () {
+
+                            // swal("Thanks for Contacting us", "We will connect with you in 24hrs!!", "success")
+                        },
+                        error: function () {
+
+
+                        }
+                    })
+                }
+            })
+        }(jQuery))
+
+    })
+
+</script>
+
+
+
+<script>
+
+    $(document).ready(function () {
+
+
+        // validate contactForm form
+        $(function () {
+            $('#entry-form-popup').validate({
+                rules: {
+                    NAME: {
+                        required: true,
+                        minlength: 2
+                    },
+                    EMAIL: {
+                        required: true,
+                        email: true
+                    },
+                    INS_TYPE: {
+                        required: true
+                    },
+                    COMNAME: {
+                        required: true,
+                        minlength: 5
+                    },
+                    MOBILE: {
+                        required: true,
+                        minlength: 10
+                    },
+                    CITY: {
+                        required: true,
+                        minlength: 3
+                    },
+                    MESSAGE: {
+                        required: true,
+                        minlength: 20
+                    },
+                    terms: {
+                        required: true
+                    }
+
+                },
+                messages: {
+                    NAME: {
+                        required: "come on, you have a name, don't you?",
+                        minlength: "your name must consist of at least 2 characters"
+                    },
+                    EMAIL: {
+                        required: "no email, no contact"
+                    },
+                    INS_TYPE: {
+                        required: "Please choose instrument type"
+                    },
+                    COMNAME: {
+                        required: "Please enter your Company Name",
+                        minlength: "your Company name must consist of atleast 5 characters"
+                    },
+                    MOBILE: {
+                        required: "come on, you have a mobile number, don't you?",
+                        minlength: "your Mobile Number must consist of atleast 10 characters"
+                    },
+                    CITY: {
+                        required: "Where are you from?",
+                        minlength: "your City Name must consist of atleast 3 characters"
+                    },
+                    MESSAGE: {
+                        required: "Please enter your message",
+                        minlength: "your message must consist of atleast 20 characters"
+                    },
+                    terms: {
+                        required: "You must agree to our terms and conditions"
+                    }
+                },
+                errorPlacement: function (error, element) {
+                    if (element.attr('type') == 'radio') {
+                        // Radio
+                        error.appendTo(element.parent().parent());
+                    } else if (element.attr('type') == 'checkbox') {
+                        // Checkbox
+                        error.appendTo(element.parent().parent());
+                    } else if (element.attr('type') == 'select') {
+                        // Select
+                        error.appendTo(element.parent().parent());
+                    } else {
+                        // Any other field
+                        error.insertAfter(element);
+                    }
+                },
+                submitHandler: function (form) {
+                    
+                    $('form#entry-form-popup #submitQuote').html('Please Wait...');
+                    $("form#entry-form-popup #submitQuote").attr("disabled", true);
+                    $('#entry-form-popup:input').attr('readonly', 'readonly');
+                    $(form).ajaxSubmit({
+                        type: "POST",
+                        data: $(form).serialize(),
+                        url: "form-submit.php",
+                        success: function () {
+                            $('form#entry-form-popup #submitQuote').hide();
+                            $('form#entry-form-popup #success').show();
+                            // swal("Thanks for Contacting us", "We will connect with you in 24hrs!!", "success")
+                        },
+                        error: function () {
+                            swal("Oops!", "Check your internet connection and Please try after sometime!", "error")
+
+                        }
+                    });
+                    $(form).ajaxSubmit({
+                        type: "POST",
+                        data: $(form).serialize(),
+                        url: "get-a-quote-mc.php",
+                        success: function () {
+
+                            // swal("Thanks for Contacting us", "We will connect with you in 24hrs!!", "success")
+                        },
+                        error: function () {
+
+
+                        }
+                    })
+                }
+            })
+        }(jQuery))
+
+    })
+
+</script>
+
+
+
+
+
+<script>
+    var modal = document.getElementById('id01');
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+

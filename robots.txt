@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow:
+Sitemap: https://www.euroeximbank.com/sitemap.xml
+Allow: /
